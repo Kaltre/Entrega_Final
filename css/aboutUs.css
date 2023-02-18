@@ -1,0 +1,32 @@
+.sobrePanam {
+  color: black;
+  padding: 40px;
+}
+
+.sobrePanam img {
+  height: 100%;
+  clip-path: circle();
+}
+
+.sobrePanam h3 {
+  text-align: center;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.card {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: -7px -7x 20px rgba(0, 0, 0, 0.2), 7px 7x 20px rgba(0, 0, 0, 0.2);
+}
+
+.circle {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=aboutUs.css.map */

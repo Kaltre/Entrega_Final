@@ -1,0 +1,544 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "lato", sans-serif;
+  color: black;
+  background-color: #FFF5E4;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 10px 0;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 10px 0;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  overflow: visible;
+}
+
+.navbar {
+  background-color: #22A39F;
+  height: 70px;
+  padding: 0 30px;
+}
+
+.navbar h1 {
+  font-size: 30px;
+  font-weight: 300;
+  margin: 10px 0;
+  line-height: 1.2;
+}
+
+.navbar .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: black;
+  padding: 9px;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  color: #3C4048;
+  border-bottom: 3px solid #3C4048;
+}
+
+.showcase {
+  height: 300px;
+  background-color: #FFF5E4;
+}
+
+.showcase p {
+  margin-bottom: 30px;
+}
+
+.showcase img {
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+}
+
+.showcase-form {
+  padding-left: 7px;
+}
+
+.grid {
+  overflow: visible;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.grid-item-1,
+.grid-item-2 {
+  position: relative;
+  top: 50px;
+}
+
+.campo, .campo-email {
+  padding: 10px 70px 10px 0;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 6px;
+}
+
+.campo-email {
+  margin-top: 20px;
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 12px 20px;
+  background: #344D67;
+  border: none;
+  margin-left: 10px;
+  margin-top: 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.showcase-form {
+  margin: auto;
+}
+
+.little-info {
+  font-size: 15px;
+  font-family: "poppins", sans-serif;
+}
+
+.sobrePanam {
+  color: black;
+  padding: 40px;
+}
+
+.sobrePanam img {
+  height: 100%;
+  clip-path: circle();
+}
+
+.sobrePanam h3 {
+  text-align: center;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.card {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: -7px -7x 20px rgba(0, 0, 0, 0.2), 7px 7x 20px rgba(0, 0, 0, 0.2);
+}
+
+.circle {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #22A39F;
+  padding: 20px 10px;
+  margin-top: 200px;
+}
+
+footer a {
+  color: white;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: #3C4048;
+  border-bottom: 2px solid #3C4048;
+}
+
+.cart {
+  background-color: white;
+  color: #212529;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 25px 60px;
+}
+
+.shop {
+  display: grid;
+  grid-template-columns: repeat(4, 223px);
+  gap: 30px;
+  justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .shop {
+    grid-template-columns: repeat(2, 223px);
+  }
+}
+@media (max-width: 500px) {
+  .shop {
+    grid-template-columns: repeat(1, 223px);
+  }
+}
+.item {
+  border: 2px solid #212529;
+  border-radius: 4px;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 10px;
+}
+
+.price-quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.bi-dash-lg {
+  color: red;
+}
+
+.bi-plus-lg {
+  color: green;
+}
+
+/* Tablets */
+/* Mobile */
+@media only screen and (min-width: 100px) and (max-width: 500px) {
+  .navbar {
+    height: 100px;
+  }
+  .navbar .flex {
+    flex-direction: column;
+  }
+  .navbar a:hover {
+    color: #3C4048;
+    border-bottom: 2px solid black;
+  }
+  .navbar ul {
+    background-color: #FFF5E4;
+    border-radius: 5px;
+    padding: 10px 0;
+  }
+  .showcase {
+    height: auto;
+    text-align: center;
+  }
+  .little-info {
+    font-size: 13px;
+  }
+  .image {
+    width: 350px;
+    margin-left: 70px;
+  }
+  .circle {
+    background-color: transparent;
+    height: 90px;
+    position: relative;
+    top: 30px;
+    left: 150px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 90px;
+  }
+}
+/* Tablet */
+@media only screen and (max-width: 768px) {
+  .grid,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+  .showcase {
+    height: auto;
+    text-align: center;
+  }
+  .image {
+    width: 600px;
+    margin-left: 80px;
+  }
+  .circle {
+    background-color: transparent;
+    height: 90px;
+    position: relative;
+    top: -30px;
+    left: 270px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 90px;
+  }
+}
+header {
+  padding: 2.5rem 3rem;
+}
+header div {
+  gap: 3px;
+}
+header div .botonCarrito {
+  font-size: 23px;
+  padding-right: 0;
+}
+header div .contadorCarrito {
+  color: white;
+  margin: 0;
+  background-color: #ED8074;
+  height: 24px;
+  width: 24px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+main h1 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+main #contenedorProductos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 3rem;
+}
+main #contenedorProductos .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+main #contenedorProductos .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+main #contenedorProductos .flip-card .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+main #contenedorProductos .flip-card .flip-card-inner .flip-card-front, main #contenedorProductos .flip-card .flip-card-inner .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+main #contenedorProductos .flip-card .flip-card-inner .flip-card-front {
+  background-color: white;
+  color: black;
+}
+main #contenedorProductos .flip-card .flip-card-inner .flip-card-front img {
+  width: 300px;
+  height: 300px;
+}
+main #contenedorProductos .flip-card .flip-card-inner .flip-card-back {
+  background-color: #ED8074;
+  color: white;
+  transform: rotateY(180deg);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main #contenedorProductos .flip-card .flip-card-inner .flip-card-back .tituloCard {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+main #contenedorProductos .flip-card .flip-card-inner .flip-card-back p {
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
+}
+main #contenedorProductos .flip-card .flip-card-inner .flip-card-back button {
+  background-color: #1D7A8C;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  width: fit-content;
+  color: white;
+}
+main #contenedorProductos .flip-card .flip-card-inner .flip-card-back button:hover {
+  background-color: #00233A;
+}
+
+aside div div table thead .tituloTabla {
+  text-align: center;
+}
+aside div div table #carritoOffcanvas .tablaProductos {
+  height: 5rem;
+}
+aside div div table #carritoOffcanvas .tablaProductos td {
+  width: 200px;
+}
+aside div div table #carritoOffcanvas .tablaProductos td img {
+  width: 85%;
+}
+aside div div table #carritoOffcanvas .tablaProductos .infoProducto {
+  font-size: 15px;
+  text-align: center;
+}
+aside div div table #carritoOffcanvas .tablaProductos .eliminarProducto {
+  font-size: 22px;
+  color: #ED8074;
+  height: 10px;
+}
+aside div div table #carritoOffcanvas .tablaProductos .eliminarProducto .deleteIconify {
+  border: 1px solid #ED8074;
+  cursor: pointer;
+}
+aside div .botonComprar {
+  background-color: #ED8074;
+  padding: 0.8rem 2rem;
+  border-radius: 4px;
+  border: none;
+  width: fit-content;
+  color: white;
+}
+aside div .botonComprar:hover {
+  background-color: #d64b3c;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 1rem;
+  }
+  header nav div div a img {
+    width: 13rem;
+    height: 3rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  main #contenedorProductos {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 1rem;
+  }
+  main #contenedorProductos .flip-card {
+    margin: 0 auto;
+    width: 180px;
+    height: 180px;
+  }
+  main #contenedorProductos .flip-card .flip-card-inner .flip-card-front img {
+    width: 100%;
+    height: 100%;
+  }
+  main #contenedorProductos .flip-card .flip-card-inner .flip-card-back .tituloCard {
+    font-size: 18px;
+  }
+  main #contenedorProductos .flip-card .flip-card-inner .flip-card-back button {
+    padding: 0.1rem;
+    width: 145px;
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  main section .tituloFormulario {
+    font-size: 20px;
+  }
+  main section .formularioContacto {
+    padding: 1rem 2rem;
+    gap: 20px;
+    display: grid;
+    grid-template-areas: "nombre" "apellido" "mail" "telefono" "consulta" "enviar";
+  }
+  main section .formularioContacto .inputNombre {
+    grid-area: nombre;
+  }
+  main section .formularioContacto .inputApellido {
+    grid-area: apellido;
+  }
+  main section .formularioContacto .inputMail {
+    grid-area: mail;
+  }
+  main section .formularioContacto .inputTelefono {
+    grid-area: telefono;
+  }
+  main section .formularioContacto .textArea {
+    grid-area: consulta;
+    margin-bottom: 1rem;
+  }
+  main section .formularioContacto .inputSubmit {
+    grid-area: enviar;
+    margin: 0 auto;
+    width: 200px;
+    background-color: #1D7A8C;
+    padding: 1rem;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+  main section .formularioContacto input, main section .formularioContacto textarea {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+  }
+  main section .formularioContacto input:focus, main section .formularioContacto textarea:focus {
+    outline: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

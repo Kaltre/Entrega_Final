@@ -1,0 +1,67 @@
+/* Tablets */
+@import "variables.scss";
+@import "mixin.scss";
+/* Mobile */
+
+@media only screen and (min-width: 100px) and (max-width: 500px) {
+  .navbar {
+    height: 100px;
+  }
+  .navbar .flex {
+    flex-direction: column;
+  }
+
+  .navbar a:hover {
+    color: $grisOscuro;
+    border-bottom: 2px solid black;
+  }
+
+  .navbar ul {
+    background-color: $fondo;
+    border-radius: 5px;
+    padding: 10px 0;
+  }
+
+  .showcase {
+    height: auto;
+    text-align: center;
+  }
+
+  .little-info {
+    font-size: 13px;
+  }
+
+  .image {
+    width: 350px;
+    margin-left: 70px;
+  }
+
+  .circle {
+    @include circle(30px, 150px);
+  }
+}
+
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  .grid,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .showcase {
+    height: auto;
+    text-align: center;
+  }
+
+  .image {
+    width: 600px;
+    margin-left: 80px;
+  }
+
+  .circle {
+    @include circle(-30px, 270px);
+  }
+}
+

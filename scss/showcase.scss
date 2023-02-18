@@ -1,0 +1,65 @@
+@import "variables.scss";
+
+.showcase {
+  height: 300px;
+  background-color: $fondo;
+}
+
+.showcase p {
+  margin-bottom: 30px;
+}
+
+.showcase img {
+  box-shadow: 7px 7px 7px $sombra;
+}
+
+.showcase-form {
+  padding-left: 7px;
+}
+
+.grid {
+  overflow: visible;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.grid-item-1,
+.grid-item-2 {
+  position: relative;
+  top: 50px;
+}
+
+.campo {
+  padding: 10px 70px 10px 0;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 6px;
+}
+
+.campo-email {
+  @extend .campo;
+  margin-top: 20px;
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 12px 20px;
+  background: $azulSecundario;
+  border: none;
+  margin-left: 10px;
+  margin-top: 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px $sombra;
+}
+
+.showcase-form {
+  margin: auto;
+}
+
+.little-info {
+  font-size: 15px;
+  font-family: "poppins", sans-serif;
+}

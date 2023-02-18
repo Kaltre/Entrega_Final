@@ -1,0 +1,42 @@
+@import "variables.scss";
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  overflow: visible;
+}
+
+.navbar {
+  background-color: $azulPrincipal;
+  height: 70px;
+  padding: 0 30px;
+}
+
+.navbar h1 {
+  font-size: 30px;
+  font-weight: 300;
+  margin: 10px 0;
+  line-height: 1.2;
+}
+
+.navbar .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: black;
+  padding: 9px;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  color: $grisOscuro;
+  border-bottom: 3px solid $grisOscuro;
+}

@@ -1,0 +1,23 @@
+@mixin circle ($top, $left){
+  background-color: transparent;
+  height: 90px;
+  position: relative;
+  top: $top;
+  left: $left;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 90px;
+}
+
+@mixin tamano ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+@mixin titulos ($tipografia, $posicion, $tamano) {
+    font-family: $tipografia;
+    text-align: $posicion;
+    font-size: $tamano;
+}
+
